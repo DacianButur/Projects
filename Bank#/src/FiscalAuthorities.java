@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class FiscalAuthorities implements Trackable{
+public class FiscalAuthorities implements Trackable {
     private final List<List<Account>> irsList = new ArrayList<>();
     private Map<String, Double> map;
     private Map<String, String> map1;

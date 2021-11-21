@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Client implements Application{
+public class Client implements Application {
     private final Account accountEUR = new Account();
     private final Account accountRON = new Account();
     private final List<Account> clientAccounts = new ArrayList<>();
